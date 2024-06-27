@@ -19,7 +19,7 @@ API_ID = int(environ.get('API_ID', '12380656'))
 API_HASH = environ.get('API_HASH', 'd927c13beaaf5110f25c505b7c071273')
 BOT_TOKEN = environ.get('BOT_TOKEN', ﻿'7091587168:AAGpX2rHu-DVYmXUdlxM3vZRnaLBrx8k3-c')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002114619001'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/')
@@ -57,7 +57,7 @@ REF_PREMIUM = 30
 PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1002114619001')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001816697837'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002047467726'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002114619001')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002114619001'))
